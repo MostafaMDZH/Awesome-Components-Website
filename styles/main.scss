@@ -112,17 +112,29 @@
                         font-size: 1.05rem;
                     }
                 }
-                > .componentName{
-                    margin-top: 35px;
-                    font-size: 2.2rem;
-                    > a{color: #222;}
-                }
-                > .componentName > a:hover,
-                > .componentName > a:focus{
-                    text-decoration: underline;
+                > .componentNameWrapper{
+                    margin-top: 70px;
+                    display: flex;
+                    align-items: flex-end;
+                    > a{
+                        color: #222;
+                    }
+                    > a:hover,
+                    > a:focus{
+                        text-decoration: underline;
+                    }
+                    > .componentName{
+                        font-size: 2.2rem;
+                        font-weight: bold;
+                        line-height: 2.2rem;
+                    }
+                    > .componentName:hover,
+                    > .componentName:focus{
+                        text-decoration: none;
+                    }
                 }
                 > .features{
-                    margin-top: 7px;
+                    margin-top: 17px;
                     margin-left: 25px;
                     font-size: 1.05rem;
                 }

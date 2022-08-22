@@ -44,7 +44,16 @@ export default function Main(){
                         <p className='sectionDescription'>React, Javascript, and Typescript compatible components</p>
 
                         {/* snackbar */}
-                        <h2 className='componentName' id='snackbar' title='demo and documentation'># <a href='https://awesome-snackbar.demos.mostafa-mdzh.ir'>Snackbar</a></h2>
+                        <div className='componentNameWrapper'>
+                            <a className='componentName' id='snackbar' href='#snackbar'># Snackbar</a>&nbsp;
+                            [&nbsp;
+                                <a href='https://awesome-snackbar.demos.mostafa-mdzh.ir'>Docs</a>
+                                &nbsp;|&nbsp;
+                                <a href='https://github.com/MostafaMDZH/Awesome-Snackbar'>Github</a>
+                                &nbsp;|&nbsp;
+                                <a href='https://www.npmjs.com/package/awesome-snackbar'>NPM</a>
+                            &nbsp;]
+                        </div>
                         <ul className='features'>
                             <li>Action button</li>
                             <li>Dark/Light theme</li>
@@ -64,7 +73,16 @@ export default function Main(){
                         </ul>
 
                         {/* toast */}
-                        <h2 className='componentName' id='toast' title='demo and documentation'># <a href='https://awesome-toast.demos.mostafa-mdzh.ir'>Toast</a></h2>
+                        <div className='componentNameWrapper'>
+                            <a className='componentName' id='toast' href='#toast'># Toast</a>&nbsp;
+                            [&nbsp;
+                                <a href='https://awesome-toast.demos.mostafa-mdzh.ir'>Docs</a>
+                                &nbsp;|&nbsp;
+                                <a href='https://github.com/MostafaMDZH/Awesome-Toast'>Github</a>
+                                &nbsp;|&nbsp;
+                                <a href='https://www.npmjs.com/package/awesome-toast-component'>NPM</a>
+                            &nbsp;]
+                        </div>
                         <ul className='features'>
                             <li>Custom position</li>
                             <li>Dark/Light theme</li>
