@@ -1,0 +1,160 @@
+@import "classes";
+
+#window{
+    width: 100%;
+    height: 100%;
+    background-color: #fd0;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @extend .thinScrollbar_dark;
+    overflow: auto;
+
+    //header:
+    > #header{
+        width: calc(100% - 20px);
+        max-width: 1400px;
+        height: 0;
+        padding: 0 50px;
+        background-color: #fd0;
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        display: flex;
+        justify-content: space-between;
+        > .headerLink{
+            font-size: 1.05rem;
+            color: #222;
+            padding: 3px 2px;
+        }
+        > #coffee:after{
+            content: ")";
+            opacity: 0;
+            transition: opacity 200ms ease;
+        }
+        > #coffee:hover:after,
+        > #coffee:focus:after{
+            opacity: 1;
+        }
+    }
+    > #container{
+        width: 100%;
+        max-width: 900px;
+        padding: 70px 20px 50px 20px;
+        margin-left: -80px;
+        display: flex;
+        flex-direction: column;
+        > #main{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 140px;
+
+            //navigation:
+            > #navigation{
+                height: 100%;
+                > #navigationWrapper{
+                    display: flex;
+                    flex-direction: column;
+                    position: fixed;
+                    top: 20%;
+                    > .navLink{
+                        font-size: 1.05rem;
+                        color: #222;
+                        padding: 1px;
+                    }
+                    > .navLink:before{
+                        content: ">";
+                        margin-right: 6px;
+                        opacity: 0;
+                        transition: opacity 70ms ease;
+                    }
+                    > .navLink:hover:before,
+                    > .navLink:focus:before{
+                        opacity: 1;
+                    }
+                }
+            }
+
+            //content:
+            > #content{
+                position: relative;
+                flex: 1;
+                max-width: 635px;
+                display: flex;
+                flex-direction: column;
+                > #github{
+                    padding: 5px;
+                    font-size: 1.05rem;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    color: #222;
+                    display: none;
+                }
+                > #awesome{
+                    font-size: 1.3rem;
+                    > a{color: #222;}
+                }
+                > #name-versionWrapper{
+                    margin: 24px 0 27px 0;
+                    display: flex;
+                    align-items: flex-end;
+                    gap: 30px;
+                    > #appName{
+                        font-size: 4.3rem;
+                        line-height: 3.5rem;
+                        > a{color: #222;}
+                    }
+                    > #version{
+                        font-size: 1.05rem;
+                    }
+                }
+                > .sectionName{
+                    margin-top: 35px;
+                    font-size: 1.4rem;
+                    line-height: 3rem;
+                    > a{color: #222;}
+                }
+                > .sectionDescription{
+                    font-size: 1.05rem;
+                }
+                > #installation{
+                    margin-top: 50px;
+                }
+                > .step{
+                    font-size: 1.05rem;
+                    > .bold{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+    }
+    
+    //footer:
+    > #footer{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        > p{
+            font-size: 1.05rem;
+            width: fit-content;
+            text-align: center;
+            > a{
+                color: #222;
+                text-decoration: underline;
+            }
+        }
+        > #awesomeComponents{
+            display: none;
+        }
+    }
+    
+}
