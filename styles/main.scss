@@ -112,23 +112,19 @@
                         font-size: 1.05rem;
                     }
                 }
-                > .sectionName{
+                > .componentName{
                     margin-top: 35px;
-                    font-size: 1.4rem;
-                    line-height: 3rem;
+                    font-size: 2.2rem;
                     > a{color: #222;}
                 }
-                > .sectionDescription{
-                    font-size: 1.05rem;
+                > .componentName > a:hover,
+                > .componentName > a:focus{
+                    text-decoration: underline;
                 }
-                > #installation{
-                    margin-top: 50px;
-                }
-                > .step{
+                > .features{
+                    margin-top: 7px;
+                    margin-left: 25px;
                     font-size: 1.05rem;
-                    > .bold{
-                        font-weight: bold;
-                    }
                 }
             }
         }
