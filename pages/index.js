@@ -104,9 +104,6 @@ export default function Main(){
             {/* footer */}
             <footer id='footer'>
                 <p>Made by <a href='https://github.com/MostafaMDZH'>Mostafa Mohammadzadeh</a></p>
-                <p id='dash'>-</p>
-                <p id='githubLink'>Source on <a href='https://github.com/MostafaMDZH/Awesome-Snackbar'>Github</a></p>
-                <p id='awesomeComponents'>From <Link href='/'><a>Awesome Components</a></Link></p>
             </footer>
 
         </div>

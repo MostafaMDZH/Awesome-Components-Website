@@ -95,19 +95,20 @@
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     #window{
         > #container{
             > #main{
                 > #content{
                     > #name-versionWrapper{
-                        margin-bottom: 20px;
+                        margin: 15px 0;
                         flex-direction: column;
                         justify-content: space-between;
                         align-items: flex-start;
                         gap: 22px;
                         > #appName{
-                            font-size: 3.8rem;
+                            font-size: 3rem;
+                            line-height: 3rem;
                         }
                     }
                 }
