@@ -11,7 +11,7 @@ export default function Main(){
         <div id='window' style={{scrollBehavior:'smooth'}}>
 
             <Head>
-                <title>Awesome Snackbar | React, Javascript, and Typescript compatible snackbar</title>
+                <title>Awesome Components | Lightweight, fast, and responsive ui components for React, Javascript, and Typescript</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
 
@@ -41,7 +41,7 @@ export default function Main(){
                         <div id='name-versionWrapper'>
                             <h1 id='appName'><Link href='/'>Components</Link></h1>
                         </div>
-                        <p className='sectionDescription'>React, Javascript, and Typescript compatible components</p>
+                        <p className='sectionDescription'>Lightweight, fast, and responsive ui components for React, Javascript, and Typescript web apps</p>
 
                         {/* snackbar */}
                         <div className='componentNameWrapper'>
