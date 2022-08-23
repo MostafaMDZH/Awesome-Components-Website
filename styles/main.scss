@@ -42,7 +42,7 @@
     > #container{
         width: 100%;
         max-width: 900px;
-        padding: 70px 20px 50px 20px;
+        padding: 70px 20px 100px 20px;
         margin-left: -80px;
         display: flex;
         flex-direction: column;
@@ -116,7 +116,10 @@
                     font-size: 1.05rem;
                 }
                 > .componentNameWrapper{
-                    margin-top: 70px;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    border-bottom: solid 2px;
+                    margin-top: 50px;
                     display: flex;
                     align-items: flex-end;
                     > a{
