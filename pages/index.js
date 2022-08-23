@@ -1,9 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-let isWelcomeSbShow = false;
-let SB = null;
-
 export default function Main(){
 
     //render:
