@@ -38,7 +38,7 @@ export default function Main(){
                         <div id='name-versionWrapper'>
                             <h1 id='appName'><Link href='/'>Components</Link></h1>
                         </div>
-                        <p className='sectionDescription'>Lightweight, fast, and responsive ui components for React, Javascript, and Typescript web apps</p>
+                        <p className='sectionDescription'>Lightweight, fast, and responsive ui components for React, Javascript, and Typescript.</p>
 
                         {/* snackbar */}
                         <div className='componentNameWrapper'>
