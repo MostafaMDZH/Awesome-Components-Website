@@ -52,19 +52,19 @@ export default function Main(){
                             &nbsp;]
                         </div>
                         <ul className='features'>
-                            <li>Action button</li>
-                            <li>Dark/Light theme</li>
-                            <li>Custom position</li>
-                            <li>Icon support</li>
-                            <li>Custom style</li>
-                            <li>Custom markup</li>
-                            <li>Multiple snackbars at the same time</li>
-                            <li>Update on fly</li>
-                            <li>User event detection</li>
-                            <li>Custom timeout</li>
-                            <li>Manual hiding</li>
-                            <li>Callback after hide</li>
-                            <li>Responsive design</li>
+                            <li>Action Button</li>
+                            <li>Dark/Light Theme</li>
+                            <li>Custom Position</li>
+                            <li>Icon Support</li>
+                            <li>Custom Style</li>
+                            <li>Custom Markup</li>
+                            <li>Multiple Snackbars At The Same Time</li>
+                            <li>Update On Fly</li>
+                            <li>User Event Detection</li>
+                            <li>Custom Timeout</li>
+                            <li>Manual Hiding</li>
+                            <li>Callback After Hide</li>
+                            <li>Responsive Design</li>
                             <li>Dynamic HTML</li>
                             <li>Lightweight</li>
                         </ul>
@@ -105,16 +105,16 @@ export default function Main(){
                             &nbsp;]
                         </div>
                         <ul className='features'>
-                            <li>Custom position</li>
-                            <li>Dark/Light theme</li>
-                            <li>Custom style</li>
-                            <li>Custom markup</li>
-                            <li>Update on fly</li>
-                            <li>User event detection</li>
-                            <li>Custom timeout</li>
-                            <li>Manual hiding</li>
-                            <li>Callback after hide</li>
-                            <li>Responsive design</li>
+                            <li>Custom Position</li>
+                            <li>Dark/Light Theme</li>
+                            <li>Custom Style</li>
+                            <li>Custom Markup</li>
+                            <li>Update On Fly</li>
+                            <li>User Event Detection</li>
+                            <li>Custom Timeout</li>
+                            <li>Manual Hiding</li>
+                            <li>Callback After Hide</li>
+                            <li>Responsive Design</li>
                             <li>Dynamic HTML</li>
                             <li>Lightweight</li>
                         </ul>
