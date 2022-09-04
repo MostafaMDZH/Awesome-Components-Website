@@ -40,6 +40,31 @@ export default function Main(){
                         </div>
                         <p className='sectionDescription'>Lightweight, fast, and responsive ui components for React, Javascript, and Typescript.</p>
 
+                        {/* selector */}
+                        <div className='componentNameWrapper'>
+                            <a className='componentName' id='selector' href='#selector'># Selector</a>&nbsp;
+                            [&nbsp;
+                                <a href='https://awesome-selector.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                &nbsp;|&nbsp;
+                                <a href='https://github.com/MostafaMDZH/Awesome-Selector'>Github</a>
+                                &nbsp;|&nbsp;
+                                <a href='https://www.npmjs.com/package/awesome-selector'>NPM</a>
+                            &nbsp;]
+                        </div>
+                        <ul className='features'>
+                            <li>Custom Title</li>
+                            <li>Searchable</li>
+                            <li>Icon Support</li>
+                            <li>Recent Selects</li>
+                            <li>Custom Column Number</li>
+                            <li>Dark/Light Theme</li>
+                            <li>Custom Style</li>
+                            <li>Navigation With Arrow Keys</li>
+                            <li>Responsive Design</li>
+                            <li>Dynamic HTML</li>
+                            <li>Lightweight</li>
+                        </ul>
+
                         {/* snackbar */}
                         <div className='componentNameWrapper'>
                             <a className='componentName' id='snackbar' href='#snackbar'># Snackbar</a>&nbsp;
@@ -64,30 +89,6 @@ export default function Main(){
                             <li>Custom Timeout</li>
                             <li>Manual Hiding</li>
                             <li>Callback After Hide</li>
-                            <li>Responsive Design</li>
-                            <li>Dynamic HTML</li>
-                            <li>Lightweight</li>
-                        </ul>
-
-                        {/* selector */}
-                        <div className='componentNameWrapper'>
-                            <a className='componentName' id='selector' href='#selector'># Selector</a>&nbsp;
-                            [&nbsp;
-                                <a href='https://awesome-selector.demos.mostafa-mdzh.ir'>Docs & Demo</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://github.com/MostafaMDZH/Awesome-Selector'>Github</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://www.npmjs.com/package/awesome-selector'>NPM</a>
-                            &nbsp;]
-                        </div>
-                        <ul className='features'>
-                            <li>Custom Title</li>
-                            <li>Searchable</li>
-                            <li>Icon Support</li>
-                            <li>Recent Selects</li>
-                            <li>Custom Column Number</li>
-                            <li>Dark/Light Theme</li>
-                            <li>Custom Style</li>
                             <li>Responsive Design</li>
                             <li>Dynamic HTML</li>
                             <li>Lightweight</li>
