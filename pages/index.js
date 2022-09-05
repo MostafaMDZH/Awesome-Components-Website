@@ -43,14 +43,16 @@ export default function Main(){
 
                         {/* selector */}
                         <div className='componentNameWrapper'>
-                            <a className='componentName' id='selector' href='#selector'># Selector</a>&nbsp;
-                            [&nbsp;
-                                <a href='https://awesome-selector.demos.mostafa-mdzh.ir'>Docs & Demo</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://github.com/MostafaMDZH/Awesome-Selector'>Github</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://www.npmjs.com/package/awesome-selector'>NPM</a>
-                            &nbsp;]
+                            <a className='componentName' id='selector' href='#selector'># Selector</a>
+                            <div className='linkWrapper'>
+                                [&nbsp;
+                                    <a href='https://awesome-selector.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://github.com/MostafaMDZH/Awesome-Selector'>Github</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://www.npmjs.com/package/awesome-selector'>NPM</a>
+                                &nbsp;]
+                            </div>
                         </div>
                         <ul className='features'>
                             <li>Custom Title</li>
@@ -69,14 +71,16 @@ export default function Main(){
 
                         {/* snackbar */}
                         <div className='componentNameWrapper'>
-                            <a className='componentName' id='snackbar' href='#snackbar'># Snackbar</a>&nbsp;
-                            [&nbsp;
-                                <a href='https://awesome-snackbar.demos.mostafa-mdzh.ir'>Docs & Demo</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://github.com/MostafaMDZH/Awesome-Snackbar'>Github</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://www.npmjs.com/package/awesome-snackbar'>NPM</a>
-                            &nbsp;]
+                            <a className='componentName' id='snackbar' href='#snackbar'># Snackbar</a>
+                            <div className='linkWrapper'>
+                                [&nbsp;
+                                    <a href='https://awesome-snackbar.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://github.com/MostafaMDZH/Awesome-Snackbar'>Github</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://www.npmjs.com/package/awesome-snackbar'>NPM</a>
+                                &nbsp;]
+                            </div>
                         </div>
                         <ul className='features'>
                             <li>Action Button</li>
@@ -99,14 +103,16 @@ export default function Main(){
 
                         {/* toast */}
                         <div className='componentNameWrapper'>
-                            <a className='componentName' id='toast' href='#toast'># Toast</a>&nbsp;
-                            [&nbsp;
-                                <a href='https://awesome-toast.demos.mostafa-mdzh.ir'>Docs & Demo</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://github.com/MostafaMDZH/Awesome-Toast'>Github</a>
-                                &nbsp;|&nbsp;
-                                <a href='https://www.npmjs.com/package/awesome-toast-component'>NPM</a>
-                            &nbsp;]
+                            <a className='componentName' id='toast' href='#toast'># Toast</a>
+                            <div className='linkWrapper'>
+                                [&nbsp;
+                                    <a href='https://awesome-toast.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://github.com/MostafaMDZH/Awesome-Toast'>Github</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://www.npmjs.com/package/awesome-toast-component'>NPM</a>
+                                &nbsp;]
+                            </div>
                         </div>
                         <ul className='features'>
                             <li>Custom Position</li>

@@ -121,22 +121,19 @@
                     margin-top: 50px;
                     display: flex;
                     align-items: flex-end;
-                    > a{
-                        color: #222;
-                    }
-                    > a:hover,
-                    > a:focus{
-                        text-decoration: underline;
-                    }
+                    gap: 12px;
                     > .componentName{
                         padding-top: 20px;
                         font-size: 2.2rem;
+                        color: #222;
                         font-weight: bold;
                         line-height: 2.2rem;
                     }
-                    > .componentName:hover,
-                    > .componentName:focus{
-                        text-decoration: none;
+                    > .linkWrapper{
+                        display: flex;
+                        > a{color: #222;}
+                        > a:hover,
+                        > a:focus{text-decoration: underline;}
                     }
                 }
                 > .features{
