@@ -8,7 +8,7 @@ export default function Main(){
         <div id='window' style={{scrollBehavior:'smooth'}}>
 
             <Head>
-                <title>Awesome Components | Lightweight, fast, and responsive ui components for React, Javascript, and Typescript</title>
+                <title>Awesome Components | Lightweight, fast, and responsive ui components for React, Angular, Vue, and Typescript</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
 
@@ -39,7 +39,7 @@ export default function Main(){
                         <div id='name-versionWrapper'>
                             <h1 id='appName'><Link href='/'>Components</Link></h1>
                         </div>
-                        <p className='sectionDescription'>Lightweight, fast, and responsive ui components for React, Javascript, and Typescript.</p>
+                        <p className='sectionDescription'>Lightweight, fast, and responsive ui components for React, Angular, Vue, and Typescript.</p>
 
                         {/* selector */}
                         <div className='componentNameWrapper'>
@@ -64,6 +64,7 @@ export default function Main(){
                             <li>Responsive Design</li>
                             <li>Dynamic HTML</li>
                             <li>Lightweight</li>
+                            <li>Zero Dependency</li>
                         </ul>
 
                         {/* snackbar */}
@@ -93,6 +94,7 @@ export default function Main(){
                             <li>Responsive Design</li>
                             <li>Dynamic HTML</li>
                             <li>Lightweight</li>
+                            <li>Zero Dependency</li>
                         </ul>
 
                         {/* toast */}
@@ -119,6 +121,7 @@ export default function Main(){
                             <li>Responsive Design</li>
                             <li>Dynamic HTML</li>
                             <li>Lightweight</li>
+                            <li>Zero Dependency</li>
                         </ul>
 
                     </div>
