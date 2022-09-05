@@ -25,6 +25,7 @@ export default function Main(){
                     {/* navigation */}
                     <div id='navigation'>
                         <div id='navigationWrapper'>
+                            <a className='navLink' href='#selector'>Selector</a>
                             <a className='navLink' href='#snackbar'>Snackbar</a>
                             <a className='navLink' href='#toast'   >Toast   </a>
                         </div>
@@ -128,7 +129,7 @@ export default function Main(){
 
             {/* footer */}
             <footer id='footer'>
-                <p>Made by <a href='https://github.com/MostafaMDZH'>Mostafa Mohammadzadeh</a></p>
+                <p>Made with ♡ by <a href='https://github.com/MostafaMDZH'>Mostafa Mohammadzadeh</a></p>
             </footer>
 
         </div>
