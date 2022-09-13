@@ -41,6 +41,35 @@ export default function Main(){
                         </div>
                         <p className='sectionDescription'>React, Angular, Vue, Typescript, and Pure Js UI Components.</p>
 
+                        {/* image viewer */}
+                        <div className='componentNameWrapper'>
+                            <a className='componentName' id='selector' href='#selector'># Image Viewer</a>
+                            <div className='linkWrapper'>
+                                [&nbsp;
+                                    <a href='https://awesome-image-viewer.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://github.com/MostafaMDZH/Awesome-Image-Viewer'>Github</a>
+                                    &nbsp;|&nbsp;
+                                    <a href='https://www.npmjs.com/package/awesome-image-viewer'>NPM</a>
+                                &nbsp;]
+                            </div>
+                        </div>
+                        <ul className='features'>
+                            <li>Lazy Loading</li>
+                            <li>Zoomable</li>
+                            <li>Custom Buttons</li>
+                            <li>Description</li>
+                            <li>Custom Select</li>
+                            <li>Swipe On Touchscreen</li>
+                            <li>Cover Size</li>
+                            <li>Thumbnail Support</li>
+                            <li>Navigation With Arrow Keys</li>
+                            <li>Responsive Design</li>
+                            <li>Dynamic HTML</li>
+                            <li>Lightweight</li>
+                            <li>Zero Dependency</li>
+                        </ul>
+
                         {/* selector */}
                         <div className='componentNameWrapper'>
                             <a className='componentName' id='selector' href='#selector'># Selector</a>
