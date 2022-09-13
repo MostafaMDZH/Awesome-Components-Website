@@ -25,6 +25,7 @@ export default function Main(){
                     {/* navigation */}
                     <div id='navigation'>
                         <div id='navigationWrapper'>
+                            <a className='navLink' href='#image-viewer'>Image Viewer</a>
                             <a className='navLink' href='#selector'>Selector</a>
                             <a className='navLink' href='#snackbar'>Snackbar</a>
                             <a className='navLink' href='#toast'   >Toast   </a>
@@ -43,7 +44,7 @@ export default function Main(){
 
                         {/* image viewer */}
                         <div className='componentNameWrapper'>
-                            <a className='componentName' id='selector' href='#selector'># Image Viewer</a>
+                            <a className='componentName' id='image-viewer' href='#image-viewer'># Image Viewer</a>
                             <div className='linkWrapper'>
                                 [&nbsp;
                                     <a href='https://awesome-image-viewer.demos.mostafa-mdzh.ir'>Docs & Demo</a>
