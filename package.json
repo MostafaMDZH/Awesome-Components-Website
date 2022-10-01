@@ -11,7 +11,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "npm run build && npm run export && find out -type d -exec chmod 755 {} \\; && find out -type f -exec chmod 644 {} \\; && git add -A && git commit -m \"[deployment auto commit]\" && git ftp push"
+    "deploy": "npm run build && npm run export && find out -type d -exec chmod 755 {} \\; && find out -type f -exec chmod 644 {} \\; && cd out && git init && git add -A && git commit -m \"init\" && git config git-ftp.url ftp://ftp.awesome-components.com:21/public_html && git config git-ftp.user \"awesomec\" && git config git-ftp.password \"mmP3:03189292\" && yes | git ftp push"
   },
   "dependencies": {
     "next": "12.2.3",
