@@ -47,7 +47,7 @@ export default function Main(){
                             <a className='componentName' id='image-viewer' href='#image-viewer'># Image Viewer</a>
                             <div className='linkWrapper'>
                                 [&nbsp;
-                                    <a href='https://awesome-image-viewer.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    <a href='https://image-viewer.awesome-components.com'>Docs & Demo</a>
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Image-Viewer'>Github</a>
                                     &nbsp;|&nbsp;
@@ -76,7 +76,7 @@ export default function Main(){
                             <a className='componentName' id='selector' href='#selector'># Selector</a>
                             <div className='linkWrapper'>
                                 [&nbsp;
-                                    <a href='https://awesome-selector.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    <a href='https://selector.awesome-components.com'>Docs & Demo</a>
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Selector'>Github</a>
                                     &nbsp;|&nbsp;
@@ -104,7 +104,7 @@ export default function Main(){
                             <a className='componentName' id='snackbar' href='#snackbar'># Snackbar</a>
                             <div className='linkWrapper'>
                                 [&nbsp;
-                                    <a href='https://awesome-snackbar.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    <a href='https://snackbar.awesome-components.com'>Docs & Demo</a>
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Snackbar'>Github</a>
                                     &nbsp;|&nbsp;
@@ -136,7 +136,7 @@ export default function Main(){
                             <a className='componentName' id='toast' href='#toast'># Toast</a>
                             <div className='linkWrapper'>
                                 [&nbsp;
-                                    <a href='https://awesome-toast.demos.mostafa-mdzh.ir'>Docs & Demo</a>
+                                    <a href='https://toast.awesome-components.com'>Docs & Demo</a>
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Toast'>Github</a>
                                     &nbsp;|&nbsp;
