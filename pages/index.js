@@ -15,7 +15,7 @@ export default function Main(){
             {/* header */}
             <header id='header'>
                 <Link href='/'><a className='headerLink'>Awesome Components</a></Link>
-                <Link href='https://www.buymeacoffee.com/mostafamdzh'><a className='headerLink' id='coffee'>buy me a coffee! :)</a></Link>
+                <Link href='https://buymeacoffee.com/mostafamdzh'><a className='headerLink' id='coffee'>buy me a coffee! :)</a></Link>
             </header>
 
             <div id='container'>
@@ -26,9 +26,9 @@ export default function Main(){
                     <div id='navigation'>
                         <div id='navigationWrapper'>
                             <a className='navLink' href='#image-viewer'>Image Viewer</a>
-                            <a className='navLink' href='#selector'>Selector</a>
-                            <a className='navLink' href='#snackbar'>Snackbar</a>
-                            <a className='navLink' href='#toast'   >Toast   </a>
+                            <a className='navLink' href='#selector'    >Selector    </a>
+                            <a className='navLink' href='#snackbar'    >Snackbar    </a>
+                            <a className='navLink' href='#toast'       >Toast       </a>
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@ export default function Main(){
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Image-Viewer'>Github</a>
                                     &nbsp;|&nbsp;
-                                    <a href='https://www.npmjs.com/package/awesome-image-viewer'>NPM</a>
+                                    <a href='https://npmjs.com/package/awesome-image-viewer'>NPM</a>
                                 &nbsp;]
                             </div>
                         </div>
@@ -80,7 +80,7 @@ export default function Main(){
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Selector'>Github</a>
                                     &nbsp;|&nbsp;
-                                    <a href='https://www.npmjs.com/package/awesome-selector'>NPM</a>
+                                    <a href='https://npmjs.com/package/awesome-selector'>NPM</a>
                                 &nbsp;]
                             </div>
                         </div>
@@ -108,7 +108,7 @@ export default function Main(){
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Snackbar'>Github</a>
                                     &nbsp;|&nbsp;
-                                    <a href='https://www.npmjs.com/package/awesome-snackbar'>NPM</a>
+                                    <a href='https://npmjs.com/package/awesome-snackbar'>NPM</a>
                                 &nbsp;]
                             </div>
                         </div>
@@ -140,7 +140,7 @@ export default function Main(){
                                     &nbsp;|&nbsp;
                                     <a href='https://github.com/MostafaMDZH/Awesome-Toast'>Github</a>
                                     &nbsp;|&nbsp;
-                                    <a href='https://www.npmjs.com/package/awesome-toast-component'>NPM</a>
+                                    <a href='https://npmjs.com/package/awesome-toast-component'>NPM</a>
                                 &nbsp;]
                             </div>
                         </div>
